@@ -41,7 +41,7 @@ setuptools.setup(
     "Topic :: Software Development :: User Interfaces",
     ],
     package_data={"":
-    ["*","*.*"]
+    ["*","*.*","yolo-coco/*"]
             },
     entry_points={"gui_scripts": [
             "psgyolo=psgyolo.psgyolo:main"
